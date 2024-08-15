@@ -1,0 +1,170 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 183,
+				"texture_height": 181,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Elephant",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Head",
+					"parent": "Elephant",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "MainHead",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-9, 24, -45.5], "size": [18, 22, 18], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Ears",
+					"parent": "Head",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "RightEar",
+					"parent": "Ears",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-29, 22, -34.5], "size": [20, 28, 2], "uv": [82, 81]}
+					]
+				},
+				{
+					"name": "LeftEar",
+					"parent": "Ears",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [9, 22, -34.5], "size": [20, 28, 2], "uv": [82, 81], "mirror": true}
+					]
+				},
+				{
+					"name": "Trunk",
+					"parent": "Head",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "UpperTrunk",
+					"parent": "Trunk",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 17, -48.5], "size": [8, 17, 8], "uv": [126, 81]}
+					]
+				},
+				{
+					"name": "LowerTrunk",
+					"parent": "Trunk",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-3, 1, -48.5], "size": [6, 17, 6], "pivot": [0, 19, -46.5], "rotation": [27.5, 0, 0], "uv": [52, 120]}
+					]
+				},
+				{
+					"name": "Tusks",
+					"parent": "Head",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "RightTusk",
+					"parent": "Tusks",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8.25, 15, -45.25], "size": [3, 11, 3], "pivot": [-6.5, 22.5, -47], "rotation": [-17.5, 0, 10], "uv": [1, 75], "mirror": true},
+						{"origin": [-8.25, 15, -47.25], "size": [3, 3, 2], "pivot": [-6.5, 22.5, -47], "rotation": [-17.5, 0, 10], "uv": [1, 89], "mirror": true}
+					]
+				},
+				{
+					"name": "LeftTusk",
+					"parent": "Tusks",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [5.25, 15, -45.25], "size": [3, 11, 3], "pivot": [6.5, 22.5, -47], "rotation": [-17.5, 0, -10], "uv": [1, 75]},
+						{"origin": [5.25, 15, -47.25], "size": [3, 3, 2], "pivot": [6.5, 22.5, -47], "rotation": [-17.5, 0, -10], "uv": [1, 89]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Elephant",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Torso",
+					"parent": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-14, 20, -27.5], "size": [28, 26, 55], "uv": [17, 0]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Body",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "UpperTail",
+					"parent": "Tail",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 23.25, 22.5], "size": [8, 13, 7], "pivot": [0, 35.25, 25.5], "rotation": [20, 0, 0], "uv": [52, 81]}
+					]
+				},
+				{
+					"name": "LowerTail",
+					"parent": "Tail",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 11.25, 22.5], "size": [8, 12, 7], "pivot": [0, 35.25, 25.5], "rotation": [20, 0, 0], "uv": [52, 101]}
+					]
+				},
+				{
+					"name": "Legs",
+					"parent": "Elephant",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "RightFrontLeg",
+					"parent": "Legs",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-16, 0, -25.5], "size": [13, 37, 13], "uv": [0, 131]}
+					]
+				},
+				{
+					"name": "LeftFrontLeg",
+					"parent": "Legs",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [3, 0, -25.5], "size": [13, 37, 13], "uv": [129, 5], "mirror": true}
+					]
+				},
+				{
+					"name": "RightBackLeg",
+					"parent": "Legs",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-16, 0, 12.5], "size": [13, 37, 13], "uv": [0, 81]}
+					]
+				},
+				{
+					"name": "LeftBackLeg",
+					"parent": "Legs",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [3, 0, 12.5], "size": [13, 37, 13], "uv": [0, 81], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}
