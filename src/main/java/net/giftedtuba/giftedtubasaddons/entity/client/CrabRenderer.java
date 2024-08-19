@@ -6,7 +6,6 @@ import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
-import software.bernie.geckolib.model.GeoModel;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;
 
 public class CrabRenderer extends GeoEntityRenderer<CrabEntity> {
@@ -16,7 +15,7 @@ public class CrabRenderer extends GeoEntityRenderer<CrabEntity> {
 
     @Override
     public Identifier getTextureLocation(CrabEntity animatable) {
-        return new Identifier(GiftedTubasAddons.MOD_ID, "textures/entity/crab.png");
+        return Identifier.of(GiftedTubasAddons.MOD_ID, "textures/entity/crab.png");
     }
 
     @Override

@@ -1,13 +1,11 @@
 package net.giftedtuba.giftedtubasaddons.entity.client;
 
 import net.giftedtuba.giftedtubasaddons.GiftedTubasAddons;
-import net.giftedtuba.giftedtubasaddons.entity.custom.CrabEntity;
 import net.giftedtuba.giftedtubasaddons.entity.custom.PenguinEntity;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
-import software.bernie.geckolib.model.GeoModel;
 import software.bernie.geckolib.renderer.GeoEntityRenderer;
 
 public class PenguinRenderer extends GeoEntityRenderer<PenguinEntity> {
@@ -17,7 +15,7 @@ public class PenguinRenderer extends GeoEntityRenderer<PenguinEntity> {
 
     @Override
     public Identifier getTextureLocation(PenguinEntity animatable) {
-        return new Identifier(GiftedTubasAddons.MOD_ID, "textures/entity/penguin.png");
+        return Identifier.of(GiftedTubasAddons.MOD_ID, "textures/entity/penguin.png");
     }
 
     @Override

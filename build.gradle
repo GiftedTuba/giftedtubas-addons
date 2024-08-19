@@ -25,7 +25,7 @@ repositories {
 			includeGroup("com.eliotlash.mclib")
 		}
 	}
-    mavenCentral()
+	mavenCentral()
 }
 
 fabricApi {
