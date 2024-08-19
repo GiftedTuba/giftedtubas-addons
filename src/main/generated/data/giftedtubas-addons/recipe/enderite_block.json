@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
     "#": {
       "item": "giftedtubas-addons:enderite"
@@ -12,6 +12,7 @@
     "###"
   ],
   "result": {
-    "item": "giftedtubas-addons:enderite_block"
+    "count": 1,
+    "id": "giftedtubas-addons:enderite_block"
   }
 }

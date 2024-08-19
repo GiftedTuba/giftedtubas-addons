@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
-  "ingredients" : [
+  "category": "misc",
+  "ingredients": [
     {
       "item": "giftedtubas-addons:enderite_block"
     }
   ],
   "result": {
-    "item": "giftedtubas-addons:enderite",
-    "count": 9
+    "count": 1,
+    "id": "giftedtubas-addons:enderite"
   }
 }
